@@ -1,0 +1,34 @@
+.slideDown-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.slideDown-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 500ms, transform 500ms;
+}
+.slideDown-exit {
+  opacity: 1;
+}
+.slideDown-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity ease 400ms, transform ease 500ms;
+}
+.slideLeft-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.slideLeft-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 500ms, transform 500ms;
+}
+.slideLeft-exit {
+  opacity: 1;
+}
+.slideLeft-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 400ms, transform 500ms;
+}

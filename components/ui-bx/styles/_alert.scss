@@ -1,0 +1,71 @@
+.alert {
+  max-width: 422px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.625rem;
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12),
+    0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+}
+.alert-fullWidth {
+  max-width: 100% !important;
+  width: 100%;
+}
+.alert-success {
+  color: var(--bx-alert-success-fg);
+  background-color: var(--bx-alert-success-bg);
+  border-color: var(--bx-alert-success-border);
+}
+
+.alert-danger {
+  color: var(--bx-alert-danger-fg);
+  background-color: var(--bx-alert-danger-bg);
+  border-color: var(--bx-alert-danger-border);
+}
+
+.alert-info {
+  color: var(--bx-alert-info-fg);
+  background-color: var(--bx-alert-info-bg);
+  border-color: var(--bx-alert-info-border);
+}
+
+.alert-warning {
+  color: var(--bx-alert-warning-fg);
+  background-color: var(--bx-alert-warning-bg);
+  border-color: var(--bx-alert-warning-border);
+}
+
+.alert-icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-right: 0.5rem;
+}
+
+.alert-text {
+  font-weight: bold;
+  flex: 1;
+  font-size: 10px;
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+.alert-btn {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+.alert-btn:focus {
+  outline: none;
+}
+
+.alert-no-margin {
+  margin: 0;
+}
